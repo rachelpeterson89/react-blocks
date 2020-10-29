@@ -8,17 +8,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="bg-secondary p-2">
+    <div className="bg-secondary m-4 p-4">
       <Header/>
-      <div className="col-12 my-2 d-flex justify-content-around">
+      <div className="col-12 my-4 d-flex justify-content-between">
         <Navigation />
         <Main>
+          <div className="d-flex">
             <SubContent />
             <SubContent />
             <SubContent />
+          </div>
             <Advertisement />
         </Main>
-        </div>
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ export default class Advertisement extends Component {
 
     render() {
         return (
-            <div style={{height: "25vh"}} className="col-11 p-2 bg-primary"></div>
+            <div style={{height: "100px"}} className="m-4 bg-primary"></div>
         )
     }
 }

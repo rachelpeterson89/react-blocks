@@ -15,7 +15,7 @@ export default class SubContent extends Component {
             <div 
             onMouseOver={() => this.setState({color:"peachpuff"})}
             onMouseOut={() => this.setState({color:"yellow"})}
-            className="col-9" style={{height: "400px", background: this.state.color}}
+            className="m-4" style={{width: "300px", height: "400px", background: this.state.color}}
             ></div>
         )
     }
